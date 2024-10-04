@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body class="fondo">
+    <header>
+        <img src="fotos/moto.png" alt="Logo" class="img">
+
+        <h1 class="titulo">Motos y Más</h1>
+
+        <nav>
+            <!--menu-->
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contenido.html">Contenidos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="horario.html">Horario</a></li>
+                <br>
+                <li><a href="item1.html">Item1</a>
+                
+                    <!--submenu-->
+                    <ul >
+                        <li><a href="subitem1.html">Subitem11</a></li>
+                        <br>
+                        <li><a href="subitem2.html">Subitem12</a></li>
+                        <br>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="bien">Contacto</h2>
+            <form class="form">
+                <label for="nom">Nombre:</label><br>
+                <input type="text" id="nom" name="nom" required><br><br>
+
+                <label for="bio">Biografia:</label><br>
+                <textarea id="bio" name="bio" rows="4" required></textarea><br><br>
+
+                <label for="age">Edad:</label><br>
+                <select id="age" name="age" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="mayor_edad">Mayor de edad</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="mayor_65">Mayor de 65 años</option>
+                </select><br><br>
+
+                <label for="tlf">Telefono:</label><br>
+                <input type="text" id="tlf" name="tfl" required><br><br>
+
+                <button type="submit">Enviar Email</button>
+        
+            </form>
+    </main>
+
+    <footer class="foot">
+        <p>&copy; Motos y mas Todos los derechos reservados 2023</p>
+            <ul>
+                <li><a href="Avisolegal.html">Aviso legal</a></li>
+                <li><a href="PoliticaLegal.html">Política de privacidad</a></li>
+                <li><a href="PoliticaCookies.html">Politica cookies</a></li>
+            </ul>
+    </footer>
+</body>
+</html>
